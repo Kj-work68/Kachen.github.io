@@ -4421,6 +4421,15 @@
     }
   })();
 
+  function toggleReadMore(){
+    var content = document.getElementById("moreContent");
+      if(content.display === "none"  || content.style.display === ""){
+        content.style.display = "block";
+      }else{
+        content.style.display = "none"
+      }
+  }
+
   exports.Util = Util;
   exports.Alert = Alert;
   exports.Button = Button;

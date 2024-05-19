@@ -183,6 +183,10 @@ a:focus {
 }
 
 /*end header section*/
+
+.more-content{
+  color: #f4f8fa;
+}
 .slider_section {
   position: relative;
 }
@@ -273,7 +277,11 @@ a:focus {
   width: 100%;
   position: relative;
   z-index: 2;
+  transition: transform 0.5s ease;
+  transform: scale(1.3);
 }
+
+
 
 .slider_section .img-box::before {
   content: "";
@@ -385,7 +393,13 @@ a:focus {
 }
 
 .about_section {
-  text-align: center;
+  text-align: left;
+  border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px;
 }
 
 .about_section .box {
@@ -409,6 +423,7 @@ a:focus {
 .about_section .box .img-box {
   width: 75%;
   border: 1px dashed #000000;
+  margin: 20px;
 }
 
 .about_section .box .img-box img {
