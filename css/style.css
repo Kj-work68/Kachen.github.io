@@ -421,12 +421,18 @@ a:focus {
 }
 
 .about_section .box .img-box {
+  
   width: 75%;
-  border: 1px dashed #000000;
+  /* border: 1px dashed #000000;  */
   margin: 20px;
+  border-radius: 14px 14px 14px 14px;
 }
 
 .about_section .box .img-box img {
+  position: relative;
+  left: -150px;
+  border-radius: 14px 14px 14px 14px;
+  margin: 20px;
   width: 50%;
 }
 
@@ -451,6 +457,36 @@ a:focus {
   background-color: #000000;
 }
 
+.about-grid{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 คอลัมน์ */
+  gap: 10px;
+  padding: 10px;;
+  
+
+}
+.grid-item{
+  background-color:#ffffff;
+  color: black;
+  padding: 20px;
+  text-align: center;
+}
+.grid-item-header{
+  grid-column: span 3; /* ครอบคลุมทุกคอลัมน์ */
+      background-color: #ffffff;
+      color:black;
+      padding: 20px;
+      text-align: center;
+     
+}
+.grid-item-img{
+  position: relative;
+  left: 50px;
+  border-radius: 14px;
+  margin: 20px;
+  width: 50%;
+  display: inline-block;
+}
 .project_section .project_container {
   display: -webkit-box;
   display: -ms-flexbox;

@@ -27,6 +27,9 @@
   <link href="css/style.css" rel="stylesheet" />
   <!-- responsive style -->
   <link href="css/responsive.css" rel="stylesheet" />
+
+  <!-- import chart -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 
 <body>
@@ -73,19 +76,24 @@
     <!-- end header section -->
   </div>
   <!-- end hero area -->
-  <div class="about_section">
-    <div class="container">
-      <h1>About Me</h1>
-      <div class="box">
-        <div class="img-box">
-          <img src="images/DSC_1021.jpg">
-        </div>
-      </div>
+  <div class="about-grid">
+    <div class="grid-item-header">About Me</div>
+    <div class="grid-item">
+      <img src="images/DSC_1021_cut.jpg" class="grid-item-img">
     </div>
+    <div class="grid-item">HI</div>
+    <div class="grid-item">HI</div>
+    <div class="grid-item">skill
+      <canvas id="myChart"></canvas>
+    </div>
+    <div class="grid-item">HI</div>
+    
+    
   </div>
-
+  
   <script src="js/jquery-3.4.1.min.js"></script>
   <script src="js/bootstrap.js"></script>
+  <script src="js/dashboard.js"></script>
 
   <script>
     function openNav() {

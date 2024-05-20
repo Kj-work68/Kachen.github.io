@@ -1,0 +1,9 @@
+.hero_area {
+    background-image: url(../images/hero-bg.jpg);
+    background-size: cover;
+  }
+
+  .header_section .container-fluid {
+    padding-right: 25px;
+    padding-left: 25px;
+  }
