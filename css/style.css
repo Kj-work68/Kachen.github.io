@@ -483,6 +483,7 @@ a:focus {
   font-weight: bold;
 }
 .skill .img {
+  display: flex;
   grid-row: 2 /span 2;
   border: 2px solid #313552;
   border-radius: 10px;
