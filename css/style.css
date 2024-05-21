@@ -459,34 +459,50 @@ a:focus {
 
 .about-grid{
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* 3 คอลัมน์ */
-  gap: 10px;
-  padding: 10px;;
+  grid-template-columns: repeat(2, 1fr); /* 3 คอลัมน์ */
+  grid-template-rows: auto;
+  column-gap: 10px;
+  row-gap: 5px;
+  margin-top: 20px;
   
-
 }
-.grid-item{
-  background-color:#ffffff;
-  color: black;
-  padding: 20px;
+
+.item{
+  background-color: #ffffff;
+  padding: 16px;
+  
+}
+
+.head{
+  grid-column: 1 /span 2;
   text-align: center;
 }
-.grid-item-header{
-  grid-column: span 3; /* ครอบคลุมทุกคอลัมน์ */
-      background-color: #ffffff;
-      color:black;
-      padding: 20px;
-      text-align: center;
-     
+
+.header{
+  text-transform: uppercase;
+  font-weight: bold;
 }
-.grid-item-img{
+.skill .img {
+  grid-row: 2 /span 2;
+  border: 2px solid #313552;
+  border-radius: 10px;
+  margin: 10px;
   position: relative;
-  left: 50px;
-  border-radius: 14px;
-  margin: 20px;
   width: 50%;
-  display: inline-block;
 }
+/* .img{
+  position: relative;
+      
+      border-radius: 14px;
+      margin: 20px;
+      width: 50%;
+} */
+
+.item.content p {
+  margin: 10px 0; /* ระยะห่างระหว่างย่อหน้า */
+  color: #333; /* สีข้อความ */
+}
+
 .project_section .project_container {
   display: -webkit-box;
   display: -ms-flexbox;
