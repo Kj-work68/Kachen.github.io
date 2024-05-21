@@ -499,6 +499,10 @@ a:focus {
       width: 50%;
 } */
 
+.footer{
+  text-align: center;
+}
+
 .item.content p {
   display: flex;
   margin: 10px 0; /* ระยะห่างระหว่างย่อหน้า */
