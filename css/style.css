@@ -1,4 +1,5 @@
 body {
+  display: flex;
   font-family: 'Roboto', sans-serif;
   color: #101010;
   background-color: #ffffff;
@@ -65,28 +66,40 @@ body {
 
 /*header section*/
 .hero_area {
+  
   background-image: url(../images/hero-bg.jpg);
   background-size: cover;
 }
 
 .sub_page .hero_area {
+  
   height: auto;
 }
 
 .hero_area.sub_pages {
+  
   height: auto;
 }
 
 .header_section .container-fluid {
+
   padding-right: 25px;
   padding-left: 25px;
+ 
+
 }
 
 .header_section .nav_container {
   margin: 0 auto;
 }
 
+
+
+
+
+
 .custom_nav-container.navbar-expand-lg .navbar-nav .nav-item .nav-link {
+  
   margin: 10px 45px;
   padding: 0;
   color: #ffffff;
@@ -512,8 +525,8 @@ a:focus {
 }
 
 .chart{
-  width: 100%;
-  height: 100%;
+  width: 80%;
+  height: 80%;
 }
 /* end about */
 
