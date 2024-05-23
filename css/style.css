@@ -1,5 +1,4 @@
 body {
-  
   font-family: 'Roboto', sans-serif;
   color: #101010;
   background-color: #ffffff;
@@ -68,35 +67,26 @@ body {
 .hero_area {
   background-image: url(../images/hero-bg.jpg);
   background-size: cover;
-
 }
 
 .sub_page .hero_area {
-  
   height: auto;
 }
 
 .hero_area.sub_pages {
-  
   height: auto;
 }
 
 .header_section .container-fluid {
-  
   padding-right: 25px;
   padding-left: 25px;
-
-
 }
 
 .header_section .nav_container {
   margin: 0 auto;
 }
 
-
-
 .custom_nav-container.navbar-expand-lg .navbar-nav .nav-item .nav-link {
-  
   margin: 10px 45px;
   padding: 0;
   color: #ffffff;
@@ -193,10 +183,6 @@ a:focus {
 }
 
 /*end header section*/
-
-.more-content{
-  color: #f4f8fa;
-}
 .slider_section {
   position: relative;
 }
@@ -287,11 +273,7 @@ a:focus {
   width: 100%;
   position: relative;
   z-index: 2;
-  transition: transform 0.5s ease;
-  transform: scale(1.3);
 }
-
-
 
 .slider_section .img-box::before {
   content: "";
@@ -402,15 +384,8 @@ a:focus {
   z-index: 3;
 }
 
-
 .about_section {
   text-align: center;
-  border: 1px solid #ddd;
-    border-radius: 4px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    background-color: #fff;
-    margin: 20px;
 }
 
 .about_section .box {
@@ -432,18 +407,11 @@ a:focus {
 }
 
 .about_section .box .img-box {
-  
   width: 75%;
-  /* border: 1px dashed #000000;  */
-  margin: 20px;
-  border-radius: 14px 14px 14px 14px;
+  border: 1px dashed #000000;
 }
 
 .about_section .box .img-box img {
-  position: relative;
-  left: -150px;
-  border-radius: 14px 14px 14px 14px;
-  margin: 20px;
   width: 50%;
 }
 
@@ -467,66 +435,6 @@ a:focus {
           transform: translate(100%, -50%);
   background-color: #000000;
 }
-
-/* Grid Layout About*/
-.grid-container {
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  gap: 10px;
-}
-
-.grid-item {
-  background-color: #f4f4f4;
-  border: 1px solid #ddd;
-  padding: 20px;
-}
-
-.grid-item-header {
-  grid-column: span 2;
-  background-color: #313552;
-  color: white;
-  text-align: center;
-  border-radius: 500px;
-  margin-top: 10px;
-  
-}
-
-/* Flexbox Layout */
-.flex-container {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-
-.flex-item {
-  background-color: #e4e4e4;
-  border: 1px solid #ccc;
-  padding: 10px;
-}
-
-.img{
-  width: 100%;
-  height: 100%;
-  border-radius: 10px;
-  border: 2px solid #313552;
-}
-
-
-.item.content p {
-  display: flex;
-  margin: 10px 0; /* ระยะห่างระหว่างย่อหน้า */
-  color: #333; /* สีข้อความ */
-}
-
-.title-content{
-  font-weight: bold;
-}
-
-.chart{
-  width: 80%;
-  height: 80%;
-}
-/* end about */
 
 .project_section .project_container {
   display: -webkit-box;
@@ -717,3 +625,121 @@ a:focus {
 
 /* end footer section*/
 /*# sourceMappingURL=style.css.map */
+
+
+/* Grid Layout */
+.about_section .grid-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 10px;
+}
+
+.about_section .grid-item {
+  background-color: #f4f4f4;
+  border: 1px solid #ddd;
+  padding: 20px;
+}
+
+.about_section .grid-item-header {
+  grid-column: span 2;
+  background-color: #333;
+  color: white;
+  text-align: center;
+}
+
+
+/* Flexbox Layout */
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.flex-item img {
+  background-color: #e4e4e4;
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: 100%;
+  height: 100%;
+}
+
+
+
+/* Flexbox Header */
+.flex-item-header {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  width: 100%;
+}
+
+/* Flexbox Row */
+.flex-row {
+  display: flex;
+  gap: 20px;
+}
+
+.flex-column {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Card Styling */
+.card {
+  background-color: #f4f4f4;
+  border: 1px solid #ddd;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.card-header {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+/* Content Styling */
+.content {
+  padding: 20px;
+  background-color: #f4f4f4;
+  border: 1px solid #ddd;
+}
+
+.title-content {
+  font-weight: bold;
+}
+
+/* Flexbox Layout */
+.about_section .flex-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.about_section .flex-item {
+  background-color: #f4f4f4;
+  border: 1px solid #ddd;
+  padding: 20px;
+}
+
+.about_section .flex-item-header {
+  background-color: #333;
+  color: white;
+  text-align: center;
+}
+
+#chart-container {
+  width: 80%;
+  margin: auto;
+}
+
+.chart{
+  width: 80%;
+  height: 80%;
+}

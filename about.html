@@ -15,8 +15,7 @@
   <title>Kachen Jantaket</title>
 
   <!-- slider stylesheet -->
-  <link rel="stylesheet" type="text/css"
-    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.3/assets/owl.carousel.min.css" />
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.3/assets/owl.carousel.min.css" />
 
   <!-- bootstrap core css -->
   <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
@@ -28,14 +27,13 @@
   <!-- responsive style -->
   <link href="css/responsive.css" rel="stylesheet" />
 
-  <!-- import chart -->
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 
 <body>
   <div class="hero_area">
     <!-- header section strats -->
-    <div class="header_section">
+    <header class="header_section">
       <div class="container-fluid">
         <div class="row">
           <div class="col-md-11 offset-md-1 px-0">
@@ -45,8 +43,7 @@
                   My Profile
                 </span>
               </a>
-              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
 
@@ -65,6 +62,9 @@
                     <li class="nav-item">
                       <a class="nav-link" href="blog.html"> Blog </a>
                     </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="contact.html">Contact us</a>
+                    </li>
                   </ul>
                 </div>
               </div>
@@ -72,64 +72,110 @@
           </div>
         </div>
       </div>
-    </div>
+    </header>
     <!-- end header section -->
   </div>
   <!-- end hero area -->
 
   <!-- about section -->
 
+  <section class="about_section layout_padding">
     <div class="container">
-
       <div class="heading_container">
-        <div class="detail-box">
-
-  <div class="grid-container">
-    <div class="grid-item grid-item-header">About Me</div>
-    <div class="grid-item">
-      <div class="flex-container">
-        <div class="flex-item">
-          <img class="img" src="images/DSC_1021_cut.jpg">
+        
+     
+       
+            <div class="flex-container">
+              <h1>About Me</h1>
+              <div class="flex-item">
+                
+                <img src="images/DSC_1021_cut.jpg">
+              </div>
+      
+              <div class="flex-item">
+                <h1>GitHub Languages Dashboard</h1>
+                <div id="chart-container">
+                    <canvas id="myChart"></canvas>
+                </div>
+            </div>
+            
+      
+              <div class="flex-item">Flex Item 3</div>
+            </div>
+          </div>
+          <div class="grid-item">
+            <div class='item content'>
+              <p class="title-content">Full-Name:</p>
+              <p>Mr. Kachen Jantaket</p>
+              <p class="title-content">E-mail:</p>
+              <p>Kachen.work68@gmail.com</P>
+              <p class="title-content">Phone:</p>
+              <p>088-050-3773</p>
+              <p class="title-content">Address:</p>
+              <p> 80/1 Village No. 2, Dan Chang Subdistrict, Bua Yai District
+                Nakhon Ratchasima Province 30120</p>
+              <p class="title-content">Educational institution:</p>
+              <p>Khon Kaen University Nong Khai Campus , Faculty of Interdisciplinary Studies, Department of Computer Science
+                and Information</p>
+              <h6 class="title-content">Preferred job description
+                position :</h6>
+              <ul>
+                <li>1. Web applications</li>
+                <li>2. Programmers</li>
+                <li>3. IT support</li>
+              </ul>
+        </div>
         </div>
 
-        <div class="flex-item">
-          <h1>GitHub Languages Dashboard</h1>
-          <div id="chart-container">
-            <canvas id="myChart"></canvas>
+      
           </div>
         </div>
+     
+  </section>
 
-        <div class="flex-item">Flex Item 3</div>
+  <!-- end about section -->
+
+  <!-- info section -->
+  <section class="info_section layout_padding-top layout_padding2-bottom">
+    <div class="container">
+      <div class="social_container">
+        <h2>
+          Follow Us
+        </h2>
+        <div class="social_box">
+          <a href="">
+            <img src="images/fb.png" alt="" />
+          </a>
+          <a href="">
+            <img src="images/twitter.png" alt="" />
+          </a>
+          <a href="">
+            <img src="images/linkedin.png" alt="" />
+          </a>
+          <a href="">
+            <img src="images/youtube.png" alt="" />
+          </a>
+        </div>
       </div>
     </div>
-    <div class="grid-item">
-      <div class='item content'>
-        <p class="title-content">Full-Name:</p>
-        <p>Mr. Kachen Jantaket</p>
-        <p class="title-content">E-mail:</p>
-        <p>Kachen.work68@gmail.com</P>
-        <p class="title-content">Phone:</p>
-        <p>088-050-3773</p>
-        <p class="title-content">Address:</p>
-        <p> 80/1 Village No. 2, Dan Chang Subdistrict, Bua Yai District
-          Nakhon Ratchasima Province 30120</p>
-        <p class="title-content">Educational institution:</p>
-        <p>Khon Kaen University Nong Khai Campus , Faculty of Interdisciplinary Studies, Department of Computer Science
-          and Information</p>
-        <h6 class="title-content">Preferred job description
-          position :</h6>
-        <ul>
-          <li>1. Web applications</li>
-          <li>2. Programmers</li>
-          <li>3. IT support</li>
-        </ul>
-  </div>
-  </div>
+  </section>
 
+  <!-- end info_section -->
+
+  <!-- footer section -->
+  <section class="container-fluid footer_section">
+    <div class="container">
+      <p>
+        &copy; 2020 All Rights Reserved By
+        <a href="https://html.design/">Free Html Templates</a>
+      </p>
+    </div>
+  </section>
+  <!-- footer section -->
 
   <script src="js/jquery-3.4.1.min.js"></script>
   <script src="js/bootstrap.js"></script>
-  <script src="js/dashboard.js"></script>
+  <script src="js/bootstrap.js"></script> 
   
 
   <script>
