@@ -68,7 +68,7 @@ body {
 .hero_area {
   background-image: url(../images/hero-bg.jpg);
   background-size: cover;
-  width: 68vh;
+
 }
 
 .sub_page .hero_area {
