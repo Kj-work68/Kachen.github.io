@@ -1,5 +1,5 @@
 body {
-  display: flex;
+  
   font-family: 'Roboto', sans-serif;
   color: #101010;
   background-color: #ffffff;
@@ -66,9 +66,9 @@ body {
 
 /*header section*/
 .hero_area {
-  
   background-image: url(../images/hero-bg.jpg);
   background-size: cover;
+  
 }
 
 .sub_page .hero_area {
@@ -82,19 +82,16 @@ body {
 }
 
 .header_section .container-fluid {
-
+  
   padding-right: 25px;
   padding-left: 25px;
- 
+
 
 }
 
 .header_section .nav_container {
   margin: 0 auto;
 }
-
-
-
 
 
 
@@ -405,8 +402,9 @@ a:focus {
   z-index: 3;
 }
 
+
 .about_section {
-  text-align: left;
+  text-align: center;
   border: 1px solid #ddd;
     border-radius: 4px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
