@@ -627,119 +627,70 @@ a:focus {
 /*# sourceMappingURL=style.css.map */
 
 
+
 /* Grid Layout */
-.about_section .grid-container {
+.grid-container  {
   display: grid;
   grid-template-columns: 1fr 2fr;
   gap: 10px;
 }
 
-.about_section .grid-item {
-  background-color: #f4f4f4;
+.grid-item  {
+  background-color:#353953;
   border: 1px solid #ddd;
   padding: 20px;
 }
 
-.about_section .grid-item-header {
+.grid-item-header {
   grid-column: span 2;
-  background-color: #333;
   color: white;
   text-align: center;
+  border-radius: 10px;
 }
 
-
-/* Flexbox Layout */
-.flex-container {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-
-.flex-item img {
-  background-color: #e4e4e4;
-  border: 1px solid #ccc;
-  padding: 10px;
-  width: 100%;
-  height: 100%;
-}
-
-
-
-/* Flexbox Header */
-.flex-item-header {
-  background-color: #333;
-  color: white;
-  text-align: center;
-  padding: 20px;
-  width: 100%;
-}
-
-/* Flexbox Row */
-.flex-row {
-  display: flex;
-  gap: 20px;
-}
-
-.flex-column {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-
-/* Card Styling */
-.card {
-  background-color: #f4f4f4;
-  border: 1px solid #ddd;
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-
-.card-header {
-  background-color: #333;
-  color: white;
-  text-align: center;
-  padding: 10px;
-}
-
-/* Content Styling */
-.content {
-  padding: 20px;
-  background-color: #f4f4f4;
-  border: 1px solid #ddd;
-}
-
-.title-content {
-  font-weight: bold;
+.title-about-me{
+  border-radius: 10px;
 }
 
 /* Flexbox Layout */
-.about_section .flex-container {
+.flex-container   {
   display: flex;
   flex-direction: column;
   gap: 10px;
+  
 }
 
-.about_section .flex-item {
-  background-color: #f4f4f4;
-  border: 1px solid #ddd;
-  padding: 20px;
-}
-
-.about_section .flex-item-header {
-  background-color: #333;
-  color: white;
-  text-align: center;
-}
-
-#chart-container {
-  width: 80%;
-  margin: auto;
-}
-
-.chart{
+.flex-item img  {
+  background-color: #e4e4e4;
+  border: 1px solid #ccc;
+  padding: 10px;
   width: 80%;
   height: 80%;
+  color: white;
+  
 }
+
+.title-content{
+  font-weight: bold;
+  color: white;
+  text-align: start;
+ 
+  margin-right: 10px;
+}
+
+p {
+  color: white;
+  text-align:start;
+  text-indent: 30px;
+
+}
+
+li{
+  color: white;
+  text-align:start;
+}
+
+h1{
+  color: white;
+}
+
