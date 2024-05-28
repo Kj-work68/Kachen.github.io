@@ -384,8 +384,10 @@ a:focus {
   z-index: 3;
 }
 
-.about_section {
+.about_section{
+
   text-align: center;
+
 }
 
 .about_section .box {
@@ -694,3 +696,6 @@ h1{
   color: white;
 }
 
+.chart{
+  color: white;
+}
